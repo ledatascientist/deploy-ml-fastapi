@@ -1,0 +1,5 @@
+tensorflow==2.5.0
+transformers==4.6.1
+sentencepiece==0.1.95
+joblib==1.0.1
+fastapi==0.65.1
