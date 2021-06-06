@@ -3,3 +3,4 @@ transformers==4.6.1
 sentencepiece==0.1.95
 joblib==1.0.1
 fastapi==0.65.1
+uvicorn==0.14.0 

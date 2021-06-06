@@ -1,6 +1,7 @@
 #Virtual env
 virtual-env/
-virtual-env*
+#dumps
+models/dumps/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
