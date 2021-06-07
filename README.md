@@ -21,3 +21,14 @@ python models/generate_pipeline.py
 ```
 uvicorn main:app  --app-dir api
 ``` 
+4. Build docker image
+
+```
+docker build -t deploy-ml-fastapi .
+``` 
+
+5. Run docker container
+
+```
+docker run -d --name sentiment-analysis-api -p 80:80 deploy-ml-fastapi
+``` 
